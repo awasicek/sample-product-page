@@ -53,12 +53,18 @@ h3 ~ p {
   text-align: justify;
 }
 
-.state-finder {
+#state-finder-container {
+  margin-top: 30px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+}
+
+.state-finder-header {
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-.state-finder ~ p {
+.state-finder-header ~ p {
   color: #002b5a;
   margin-bottom: 5px;
   font-size: 12px;
