@@ -9,9 +9,11 @@
         <title></title>
     </head>
     <body>
-        <img src="materials/images/banner.jpg" alt="banner" />
+        <!-- begin Banner -->
+        <img src="materials/images/banner.jpg" alt="banner"/>
+        <!-- end Banner -->
         <div class="medium-grey-background">
-          <div class="row">
+          <div class="row" style="width: 960px">
             <div class="col s7 offset-s1">
               <h1>In Gravida Libero</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim neque, molestie ut placerat id, tincidunt in sem. Pellentesque sodales lobortis eros nec pulvinar. In ac ultrices ipsum, ultricies semper nisi. Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum.</p>
@@ -81,7 +83,7 @@
             <div class="col s1"></div>
           </div>
           <!-- begin Learn More Container -->
-          <div class="row">
+          <div class="row" style="width: 960px">
             <div class="light-grey-background col s10 offset-s1">
               <div class="row">
                 <div class="col s6">
@@ -124,7 +126,7 @@
           <!-- end Learn More Container -->
 
           <!-- begin Products Container -->
-          <div class="row">
+          <div class="row" style="width: 960px">
             <div class="light-grey-background col s10 offset-s1">
               <div class="row">
                 <div class="col s9">
@@ -145,43 +147,55 @@
                 </div>
                 <!-- end Filter By element -->
               </div>
+              <!-- begin Product cards -->
               <div class="row">
                 <ul>
                     <li class="ultra-light-grey-background col s3">
-                        Product Title 1 <br>
-                        Starting at $500 <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                      <div style="height: 125px">
+                        <h4>Product Title 1</h4>
+                        <h5>Starting at $500</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
                         <img src="materials/images/cereal_b.jpg" alt="cereal" />
                         <a>Learn More</a>
                     </li>
                     <li class="ultra-light-grey-background col s3">
-                        Product Title 2<br>
-                        Starting at $1900<br>
-                        Donec ornare magna sit amet erat molestie sollicitudin ac vitae lectus.</br>
-                        <img src="materials/images/flower_b.jpg" alt="flower" />
+                      <div style="height: 125px">
+                        <h4>Product Title 2</h4>
+                        <h5>Starting at $1900</h5>
+                        <p>Donec ornare magna sit amet erat molestie sollicitudin ac vitae lectus.</p>
+                      </div>
+                        <img src="materials/images/flower_b.jpg" alt="flower"/>
                         <a>Learn More</a>
                     </li>
                     <li class="ultra-light-grey-background col s3">
-                        Product Title 3<br>
-                        Starting at $2730<br>
-                        Cras non metus sed odio tristique imperdiet.</br>
-                        <img src="materials/images/machine_b.jpg" alt="machine" />
+                      <div style="height: 125px">
+                        <h4>Product Title 3</h4>
+                        <h5>Starting at $2730</h5>
+                        <p>Cras non metus sed odio tristique imperdiet.</p>
+                      </div>
+                        <img src="materials/images/machine_b.jpg" alt="machine"/>
                         <a>Learn More</a>
                     </li>
                     <li class="ultra-light-grey-background col s3">
-                        Product Title 4<br>
-                        Starting at $731<br>
-                        Pellentesque mattis tellus ut molestie dapibus.</br>
-                        <img src="materials/images/candy_b.jpg" alt="candy" />
+                      <div style="height: 125px">
+                        <h4>Product Title 4</h4>
+                        <h5>Starting at $731</h5>
+                        <p>Pellentesque mattis tellus ut molestie dapibus.</p>
+                      </div>
+                        <img src="materials/images/candy_b.jpg" alt="candy"/>
                         <a>Learn More</a>
                     </li>
                 </ul>
               </div>
+              <!-- end Product cards -->
             </div>
             <div class="col s1"></div>
           </div>
           <!-- end Products Container -->
+          <br>
         </div>
+        <!-- end Content -->
 
         <script type="text/javascript">
         // fixes issue with Materialize causing HTML seleect elements not to render

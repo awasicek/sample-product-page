@@ -1,7 +1,7 @@
 body {
   /*background-image: tan.jpg*/
   font-family: Lato;
-  width: 960px;
+  /*width: 960px;*/
 }
 
 img {
@@ -13,6 +13,21 @@ h1, h2, h3 {
   color: #002b5a;
   margin-bottom: 42px;
   text-transform: capitalize;
+}
+
+h4 {
+  color: #002b5a;
+  font-size: 17px;
+}
+
+h5 {
+  color: #4987ca;
+  font-size: 13px;
+}
+
+h5 ~ p {
+  color: #666666;
+  font-size: 13px;
 }
 
 .medium-grey-background {
@@ -68,4 +83,10 @@ h3 ~ p {
   color: #002b5a;
   margin-bottom: 5px;
   font-size: 12px;
+}
+
+li {
+  border: 5px solid;
+  border-color: #f5f5f5;
+  height: 300px;
 }
