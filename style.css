@@ -72,6 +72,7 @@ h3 ~ p {
   margin-top: 30px;
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+  height: 180px;
 }
 
 .state-finder-header {
@@ -120,6 +121,7 @@ ul.ui-autocomplete {
 
 .ui-menu-item:hover {
   background-color: #e2e7eb;
+  cursor: default;
 }
 
 #tags {
@@ -141,16 +143,16 @@ input:focus {
   color: grey;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none; 
+  -ms-user-select: none;
 }
 
 hr {
   display: inline-block;
-  height: 43px;
+  height: 42px;
   border-width: 0 1px 0 0;
   border-color: lightgrey;
   position: relative;
-  bottom: 67px;
+  bottom: 65px;
   left: 180px;
 }
 
@@ -162,9 +164,15 @@ hr:hover {
   cursor: default;
 }
 
-/*<span>|</span>
-span {
-  color: grey;
-  font-size: 20px;
-  font-weight: lighter;
-}*/
+.modal-header {
+  height: 50px;
+}
+
+.modal-close {
+  text-transform: none;
+  text-align: right;
+  display: block;
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+}
