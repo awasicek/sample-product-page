@@ -199,3 +199,51 @@ span.ui-helper-hidden-accessible div {
   box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 2px #fff inset;
   padding: 10px;
 }
+
+.sprite-1 {
+	background: url('materials/images/1-6-bullet-sprite.png') no-repeat -33px -22px;
+	width: 16px;
+	height: 21px;
+}
+
+.sprite-2 {
+	background: url('materials/images/1-6-bullet-sprite.png') no-repeat -33px -66px;
+	width: 16px;
+	height: 21px;
+}
+
+.sprite-3 {
+	background: url('materials/images/1-6-bullet-sprite.png') no-repeat -33px -110px;
+	width: 16px;
+	height: 21px;
+}
+
+.sprite-4 {
+	background: url('materials/images/1-6-bullet-sprite.png') no-repeat -33px -154px;
+	width: 16px;
+	height: 21px;
+}
+
+.sprite-5 {
+	background: url('materials/images/1-6-bullet-sprite.png') no-repeat -33px -198px;
+	width: 16px;
+	height: 21px;
+}
+
+.sprite-6 {
+	background: url('materials/images/1-6-bullet-sprite.png') no-repeat -33px -242px;
+	width: 16px;
+	height: 21px;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.5);
+}
+
+.grow-friend {
+  transform: scale(1.5);
+}
