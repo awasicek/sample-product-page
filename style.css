@@ -32,6 +32,7 @@ h5 ~ p {
 
 .medium-grey-background {
   background-color: #e2e2e2;
+  margin-top: -3px;
 }
 
 .light-grey-background {
@@ -93,8 +94,6 @@ h3 ~ p {
 }
 
 .product-learn-more {
-  /*color: #666666;*/
-  /*instructions say above color but final image and the arrow are the dark blue color used below*/
   color: #002b5a;
   font-size: 13px;
 }
@@ -175,4 +174,8 @@ hr:hover {
   position: relative;
   bottom: 100px;
   left: 20px;
+}
+
+span.ui-helper-hidden-accessible div {
+  display: none;
 }
