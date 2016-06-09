@@ -318,6 +318,7 @@ span.ui-helper-hidden-accessible div {
   opacity: 0.8;
 }
 
+/*begin Portrait styling*/
 @media screen and (orientation : portrait) {
   #banner-desktop {
     display: none;
@@ -333,6 +334,9 @@ span.ui-helper-hidden-accessible div {
   }
   h1 {
     font-size: 100px;
+  }
+  h1 ~ p {
+    font-size: 30px;
   }
   h2 {
     font-size: 100px;
@@ -452,7 +456,7 @@ span.ui-helper-hidden-accessible div {
   #white-arrow {
     height: 20px !important;
     width: 20px !important;
-    margin-left: 575px;
+    margin-left: 600px;
   }
   .sprite-1 {
     transform: scale(3);
@@ -510,3 +514,114 @@ span.ui-helper-hidden-accessible div {
     font-size: 25px !important;
   }
 }
+/*end Portrait styling*/
+
+/*begin Landscape styling*/
+@media screen and (orientation : landscape) {
+  #banner-desktop {
+    display: none;
+  }
+  #banner-portrait {
+    display: inline-block;
+  }
+  #connect-icon-div {
+    right: 0px;
+  }
+  #state-finder-container {
+    padding: 20px;
+    height: auto;
+  }
+  .ui-autocomplete-input {
+    height: 60px !important;
+    width: 740px !important;
+  }
+
+  hr {
+    height: 60px !important;
+    margin: 0px !important;
+    top: 25px !important;
+    left: -65px !important;
+  }
+
+  #search-icon {
+    bottom: 58px;
+    left: 705px;
+  }
+  h3 ~ p {
+    height: auto;
+  }
+  .learn-more-card {
+    height: auto !important;
+  }
+  #price-range {
+    height: auto;
+    position: relative;
+    top: 15px;
+    left: 365px;
+  }
+  #filter-label {
+    top: 40px !important;
+    left: 310px !important;
+  }
+  .product-card-1 {
+    width: 50%;
+    height: auto;
+  }
+  .product-card-2 {
+    width: 50%;
+    height: auto;
+  }
+  .product-card-3 {
+    width: 50%;
+    height: auto;
+  }
+  .product-card-4 {
+    width: 50%;
+    height: auto;
+  }
+  .products-container {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  #buy-online {
+    margin-bottom: 10px;
+  }
+  #close-product-detail {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 20px;
+    margin-left: 700px;
+  }
+  .sprite-1 {
+    transform: scale(1.3);
+  }
+  .sprite-2 {
+    transform: scale(1.3);
+  }
+  .sprite-3 {
+    transform: scale(1.3);
+  }
+  .grow:hover {
+    transform: scale(2.5);
+  }
+  .grow-friend {
+    transform: scale(2.5);
+  }
+  #product-detail-desc li {
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  .product-sprite-1 {
+    bottom: 365px !important;
+    left: 290px !important;
+  }
+  .product-sprite-2 {
+    bottom: 290px !important;
+    left: 710px !important;
+  }
+  .product-sprite-3 {
+    bottom: 160px !important;
+    left: 475px !important;
+  }
+}
+/*end Landscape styling*/
