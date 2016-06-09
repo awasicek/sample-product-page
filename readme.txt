@@ -1,3 +1,5 @@
+This project is available at http://awasicek.github.io/sample-product-page/.  This is a sample product page created as per the specifications below.
+
 Before you begin:
 -----------------
 
@@ -24,4 +26,3 @@ Folder explaination :
 materials\final : Screenshots of the final page as expected when you finish your test
 materials\images : All images you need
 materials\specs : Detailed specification that explains color, font-size,... and how the page works
-
