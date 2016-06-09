@@ -517,7 +517,7 @@ span.ui-helper-hidden-accessible div {
 /*end Portrait styling*/
 
 /*begin Landscape styling*/
-@media screen and (orientation : landscape) {
+@media screen and (max-device-width: 736px) and (orientation : landscape) {
   #banner-desktop {
     display: none;
   }
