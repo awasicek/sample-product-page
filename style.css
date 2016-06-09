@@ -287,9 +287,31 @@ span.ui-helper-hidden-accessible div {
 #product-detail-price {
   color: #4987ca;
   font-size: 19px;
-  text-emphasis-style:
+  font-style: italic;
 }
 
 #product-detail-desc {
   text-align: justify;
+}
+
+#connect-icon-div {
+  width: 200px;
+  float: right;
+  position: relative;
+  bottom: 50px;
+  right: 90px;
+}
+
+#connect-icon-div text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.connect-icons {
+  height: 18px;
+  width: 18px;
+  display: inline;
+  vertical-align: middle;
+  opacity: 0.8;
 }
