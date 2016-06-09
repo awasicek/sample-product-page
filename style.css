@@ -248,3 +248,48 @@ span.ui-helper-hidden-accessible div {
 .grow-friend {
   transform: scale(1.5);
 }
+
+.product-1-detail-button:hover {
+  cursor: pointer;
+}
+
+.product-2-detail-button:hover {
+  cursor: pointer;
+}
+
+.product-3-detail-button:hover {
+  cursor: pointer;
+}
+
+.product-4-detail-button:hover {
+  cursor: pointer;
+}
+
+#close-product-detail:hover {
+  cursor: pointer;
+}
+
+#buy-online {
+  background-color: #002b5a;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+  border-width: 0;
+  padding: 10px;
+}
+
+#product-detail-header {
+  color: #002b5a;
+  font-size: 24px;
+}
+
+#product-detail-price {
+  color: #4987ca;
+  font-size: 19px;
+  text-emphasis-style:
+}
+
+#product-detail-desc {
+  text-align: justify;
+}

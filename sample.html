@@ -121,8 +121,8 @@
                         <h5>Starting at $500</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                       </div>
-                        <img src="materials/images/cereal_b.jpg" alt="cereal" />
-                        <a id="product-1-detail-button" class="product-learn-more">Learn More &nbsp <img class="blue-arrow" src="materials/images/arrow-btn-blue.png" alt="blue-arrow"/></a>
+                        <img class="product-1-detail-button" src="materials/images/cereal_b.jpg" alt="cereal" />
+                        <a class="product-learn-more product-1-detail-button">Learn More &nbsp <img class="blue-arrow" src="materials/images/arrow-btn-blue.png" alt="blue-arrow"/></a>
                     </li>
                     <li class="ultra-light-grey-background col s3 product-card product-card-2">
                       <div style="height: 125px">
@@ -130,8 +130,8 @@
                         <h5>Starting at $1900</h5>
                         <p>Donec ornare magna sit amet erat molestie sollicitudin ac vitae lectus.</p>
                       </div>
-                        <img src="materials/images/flower_b.jpg" alt="flower"/>
-                        <a id="product-2-detail-button" class="product-learn-more">Learn More &nbsp <img class="blue-arrow" src="materials/images/arrow-btn-blue.png" alt="blue-arrow"/></a>
+                        <img class="product-2-detail-button" src="materials/images/flower_b.jpg" alt="flower"/>
+                        <a class="product-learn-more product-2-detail-button">Learn More &nbsp <img class="blue-arrow" src="materials/images/arrow-btn-blue.png" alt="blue-arrow"/></a>
                     </li>
                     <li class="ultra-light-grey-background col s3 product-card product-card-3">
                       <div style="height: 125px">
@@ -139,8 +139,8 @@
                         <h5>Starting at $2730</h5>
                         <p>Cras non metus sed odio tristique imperdiet.</p>
                       </div>
-                        <img src="materials/images/machine_b.jpg" alt="machine"/>
-                        <a id="product-3-detail-button" class="product-learn-more">Learn More &nbsp <img class="blue-arrow" src="materials/images/arrow-btn-blue.png" alt="blue-arrow"/></a>
+                        <img class="product-3-detail-button" src="materials/images/machine_b.jpg" alt="machine"/>
+                        <a class="product-learn-more product-3-detail-button">Learn More &nbsp <img class="blue-arrow" src="materials/images/arrow-btn-blue.png" alt="blue-arrow"/></a>
                     </li>
                     <li class="ultra-light-grey-background col s3 product-card product-card-4">
                       <div style="height: 125px">
@@ -148,8 +148,8 @@
                         <h5>Starting at $731</h5>
                         <p>Pellentesque mattis tellus ut molestie dapibus.</p>
                       </div>
-                        <img src="materials/images/candy_b.jpg" alt="candy"/>
-                        <a id="product-4-detail-button" class="product-learn-more">Learn More &nbsp <img class="blue-arrow" src="materials/images/arrow-btn-blue.png" alt="blue-arrow"/></a>
+                        <img class="product-4-detail-button" src="materials/images/candy_b.jpg" alt="candy"/>
+                        <a class="product-learn-more product-4-detail-button">Learn More &nbsp <img class="blue-arrow" src="materials/images/arrow-btn-blue.png" alt="blue-arrow"/></a>
                     </li>
                 </ul>
               </div>
@@ -162,15 +162,17 @@
         <!-- begin Product details -->
         <div id="product-detail-container" class="row" style="width: 960px; margin-top: -15px; display: none">
           <div class="light-grey-background col s10 offset-s1">
-            <div class="row">
+            <div class="row" style="margin-top: 20px">
               <h6 id="product-detail-header" class="col s6">header</h6>
-              <button class="col s6" id="close-product-detail" type="button" name="button"><img src="materials/images/close.png" alt="close" style="width: 12px; height: auto;" /></button>
+              <div class="col s6">
+                <img  id="close-product-detail" src="materials/images/close.png" alt="close" style="width: 17px; height: auto;" align="right"/>
+              </div>
             </div>
             <div class="row">
               <div class="col s6">
                 <h7 id="product-detail-price">price</h7>
                 <p id="product-detail-desc">description</p>
-                <button type="button" name="button">Buy Online</button>
+                <button type="button" name="button" id="buy-online">Buy Online &nbsp <img src="materials/images/arrow-btn-white.png" alt="white arrow" style="height: 10px; width: 10px;" /></button>
               </div>
               <div class="col s6">
                 <img id="product-detail-img" alt="product detail image"/>
@@ -179,12 +181,6 @@
                 <img class="sprite-3 product-image-sprite product-sprite-3" style="display: none" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="sprite-3"/>
               </div>
             </div>
-            <!-- <ul id="product-detail-bullets">
-              <li id="product-detail-bullet-1">1</li>
-              <li id="product-detail-bullet-2">2</li>
-              <li id="product-detail-bullet-3">3</li>
-            </ul> -->
-
           </div>
           <div class="col s1"></div>
         </div>
@@ -215,9 +211,9 @@
             'priceNumber' : '500',
             'desc' : 'Cras a ante eget dui dignissim molestie nec non lectus. Donec id sapien tristique, iaculis odio a, gravida ligula. In hac habitasse platea dictumst. Praesent non lacus elit. Sed convallis erat sem, ac egestas ipsum tempor in. Sed consectetur ex at dolor ullamcorper vulputate. Ut tristique ipsum velit, eget pretium ipsum dictum vel. Aenean ut tempus elit, non facilisis odio. Vivamus hendrerit ipsum vel risus ultrices, ut ornare metus ornare. Quisque semper ante ac pellentesque vestibulum. Cras a massa turpis. Pellentesque congue leo velit, non porta dui euismod nec.<br> <br> Mauris sed enim risus. Quisque mollis justo quis commodo euismod. Nullam non massa in lorem cursus sagittis. Sed laoreet felis mauris, a eleifend sapien molestie eget. Duis at volutpat elit. Phasellus sit amet erat ut libero lobortis sollicitudin pellentesque ac lectus. Phasellus venenatis ultrices justo nec venenatis.<br><br>'
                 +'<ul>'
-                        + '     <li><img class="sprite-1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></a>Non porta dui euismod nec</li>'
-                        + '     <li><img class="sprite-2" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">Ut tristique ipsum velit</li>'
-                        + '     <li><img class="sprite-3" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">Quisque mollis justo</li>'
+                        + '     <li style="margin-bottom: 10px;"><img class="sprite-1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></a>&nbsp &nbsp Non porta dui euismod nec</li>'
+                        + '     <li style="margin-bottom: 10px;"><img class="sprite-2" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">&nbsp &nbsp Ut tristique ipsum velit</li>'
+                        + '     <li style="margin-bottom: 10px;"><img class="sprite-3" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">&nbsp &nbsp Quisque mollis justo</li>'
                 +'</ul>',
             'uri-stub'   : '/buy-mattress/iseries/iseries-hybrid/iseries-approval-super-pillow-top',
                             'src'        : 'materials/images/cereal_b.jpg'
@@ -370,7 +366,7 @@
 
          // begin Product detail dynamic sections
          // Note: this section can be DRY'd considerably
-         $("#product-1-detail-button").click(function(){
+         $(".product-1-detail-button").click(function(){
            $("#product-detail-header").html(window.products[1].title);
            $("#product-detail-price").html(window.products[1].price);
            $("#product-detail-desc").html(window.products[1].desc);
@@ -450,7 +446,7 @@
            $("#product-detail-container").css("display", "block");
           });
 
-         $("#product-2-detail-button").click(function(){
+         $(".product-2-detail-button").click(function(){
            $(".product-image-sprite").css("display", "none")
            $("#product-detail-header").html(window.products[2].title);
            $("#product-detail-price").html(window.products[2].price);
@@ -459,7 +455,7 @@
            $("#product-detail-container").css("display", "block");
          })
 
-         $("#product-3-detail-button").click(function(){
+         $(".product-3-detail-button").click(function(){
            $(".product-image-sprite").css("display", "none");
            $("#product-detail-header").html(window.products[3].title);
            $("#product-detail-price").html(window.products[3].price);
@@ -468,7 +464,7 @@
            $("#product-detail-container").css("display", "block");
          })
 
-         $("#product-4-detail-button").click(function(){
+         $(".product-4-detail-button").click(function(){
            $(".product-image-sprite").css("display", "none");
            $("#product-detail-header").html(window.products[4].title);
            $("#product-detail-price").html(window.products[4].price);
